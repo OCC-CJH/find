@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our Cozy Corner</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="background">
+        <img src="./img/background.jpg" alt=""></imgsrc>
+    </div>
+    <div class="main">
+        <img src="./img/ㅅ.png" alt=""></imgsrc>
+        </div>
+    <div class="Q">
+        <div class="main_Q"> QUESTION 3/4</div>
+        <p class="sub_Q">
+            준혁이에게 정말 힘이 되는 말은?<br>
+            <br>
+            “○○○○○ 고마워”<br>
+
+        </p>
+    </div>
+
+
+
+    <div class="A">
+        <p class="sub">*띄어쓰기 까지 정확하게 적어주세요.</p>
+        <div class="text01">
+            <input id="inputText" type="text"/>
+            <input id="btnSubmit" type="submit"/>
+            <script type="text/javascript">
+                const answer = "노래해줘서 고마워"; /* <- 이곳에 정답 작성 */
+            
+                window.onload = () => {
+                    document.getElementById("btnSubmit").onclick = () => {
+                        const value = document.getElementById("inputText").value;
+                        if (value === answer) window.location.href = "./4q_move.html";
+                        else window.location.href = "./3wrong.html";
+                    };d
+                };
+            </script>
+        </div>
+        
+
+
+    </body>
+
+
+
+</html>
+
+
+
+
+

@@ -124,6 +124,13 @@ a, b, i, strong, mark, em, code {
     width: 100%;
     margin-top: 20%;
     text-align: center;
+    font-size: 18px;
+    color: #7C84CC;}
+
+.Q .main_Q__{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
     font-size: 25px;
     color: #7C84CC;}
 
@@ -139,15 +146,13 @@ a, b, i, strong, mark, em, code {
     border-color: pink;
     position: absolute;
     bottom: 15%;
-    width: 100%;
-    }
+    width: 100%;}
 
 .A p{
     width: 100%;
     margin-bottom: 3%;
     text-align: center;
-    color: #7C84CC;
-}
+    color: #7C84CC;}
 
 input { 
     padding: 10px 20px;
@@ -156,12 +161,12 @@ input {
     border-style: solid;
     color: #FF86B1;
     background-color: #FFFFFF;
-    border-radius: 50px;
-}
+    border-radius: 50px;}
+
 .text01 {
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;}
+
 .btnSubmit {}
 
 
@@ -184,8 +189,8 @@ input {
     text-align: center;
     bottom: 15%;
     display: flex;
-    padding: 5%;
-}
+    padding: 5%;}
+
 .worng_btn a{
     margin: auto;
     justify-content: center;
@@ -197,15 +202,13 @@ input {
     border-width: 1px;
     border-style: solid;
     border-radius: 50px;
-    margin: 1%;
-}
+    margin: 1%;}
 
 .worng_btn a p {
     font-size: 16px;
     font-weight: 500;
     color: #FF86B1;
-    margin: 5% 3%;
-}
+    margin: 5% 3%;}
 
 
 
@@ -221,8 +224,8 @@ input {
     text-align: center;
     margin: auto;
     position: absolute;
-    bottom: 15%;
-}
+    bottom: 15%;}
+
 .hint_btn a{
     margin: auto;
     justify-content: center;
@@ -234,12 +237,72 @@ input {
     background-color: #FFFFFF;
     border-width: 1px;
     border-style: solid;
-    border-radius: 50px;
-}
+    border-radius: 50px;}
 
 .hint_btn a p {
     font-size: 16px;
     font-weight: 500;
     color: #FF86B1;
-    margin: 5%;
-}
+    margin: 5%;}
+
+
+
+
+.move {
+    margin: auto;
+    justify-content: center;
+    display: block;
+    width: 75%;
+    height: auto;
+    margin-top: 3%;}
+
+.adress{
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+    color: #7C84CC;}
+
+.move_txt{
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    font-weight: 500;
+    color: #7C84CC;}
+
+
+
+
+
+
+
+
+
+
+
+.map_btn {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 12% 5%;}
+
+.map_btn a{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border: #FF86B1;
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin: 1%;}
+
+.map_btn a p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF86B1;
+    margin: 5% 3%;}
